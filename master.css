@@ -1,0 +1,160 @@
+/* Start Global Rules */
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(45,43,191);
+    background: linear-gradient(90deg, rgba(45,43,191,1) 0%, rgba(0,121,255,1) 0%);
+}
+/* End Global Rules */
+
+.container {
+    background-color: #fff;
+    width: 370px;
+    padding: 30px;
+    margin-bottom: 200px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+
+.container header {
+    align-items: center;
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.container form {
+    margin: 40px 0 20px 0;
+    
+}
+
+
+.container form .amount p {
+    margin: 0 0 10px;
+    font-weight: bold;
+}
+
+
+.container form :where(input, select, button) {
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    width: 100%;
+    outline: none;
+}
+
+.container form input {
+    border: 1px solid #ddd;
+    height: 50px;
+    padding: 0 0 0 15px ;
+    transition: 0.5s linear;
+    -webkit-transition: 0.5s linear;
+    -moz-transition: 0.5s linear;
+    -ms-transition: 0.5s linear;
+    -o-transition: 0.5s linear;
+}
+
+.container form input:focus {
+    border: 1px solid rgba(0,121,255,1); 
+}
+
+/* Start Drop List */
+.container form .drop-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container form p {
+    margin-bottom: 5px;
+    font-size: 16;
+    font-weight: 500;
+}
+
+.container form .drop-list .slect-box {
+    display: flex;
+    border: 1px  solid #ddd;
+    height: 45px;
+    width: 115px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container form .drop-list img {
+    width: 25px;
+}
+
+.container form .drop-list select {
+    width: auto;
+    font-size: 16px;
+    margin: 0 -5PX 0 5px;
+}
+
+.slect-box select::-webkit-scrollbar{
+    width: 8px;
+}
+
+.slect-box select::-webkit-scrollbar-track{
+    background-color: #fff;
+}
+
+.slect-box select::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    border-right: 2px solid #fff;
+}
+
+.container form .drop-list .icon {
+    cursor: pointer;
+    font-size: 22px;
+    margin-top: 50px;
+}
+/* End Drop List */
+
+.container form .exchang {
+    margin: 10px 0 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.container form button {
+    background-color: rgba(0,121,255,1);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: 0.5s linear;
+    -webkit-transition: 0.5s linear;
+    -moz-transition: 0.5s linear;
+    -ms-transition: 0.5s linear;
+    -o-transition: 0.5s linear;
+    cursor: pointer;
+}
+
+.container form button:hover {
+    background-color:  rgba(0,78,164,1);
+}

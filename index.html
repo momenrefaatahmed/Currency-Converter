@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Currency Converter</title>
+    <!-- main css file -->
+    <link rel="stylesheet" href="master.css">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+</head>
+<body>
+    <!-- Start Container -->
+    <div class="container">
+        <header>Currency Converter</header>
+        <form action="">
+            <div class="amount">
+                <p>Enter Amount</p>
+                <input type="text" value="1">
+            </div>
+                <div class="drop-list">
+                    <div class="from">
+                        <p>from</p>
+                        <div class="slect-box">
+                            <img src="https://flagsapi.com/US/flat/64.png" alt="">
+                            <select>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="icon"><i class="fa-solid fa-right-left"></i></div>
+                    <div class="to">
+                        <p>To</p>
+                        <div class="slect-box">
+                            <img src="https://flagsapi.com/EG/flat/64.png" alt="">
+                            <select>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="exchang">Geeting Exchange Rate...</div>
+                <button>Get Exchang Rate</button>
+        </form>
+    </div>
+    <!-- End Container -->
+    <script src="country-list.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
